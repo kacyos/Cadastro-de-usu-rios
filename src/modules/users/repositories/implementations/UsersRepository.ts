@@ -52,8 +52,6 @@ class UsersRepository implements IUsersRepository {
       return user.id === receivedUser.id;
     });
 
-    console.log(user);
-
     return user;
   }
 
